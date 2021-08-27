@@ -1,0 +1,47 @@
+{
+    "BalancerAgent": {
+        "checkpoints": [
+            {
+                "steps": 349999,
+                "file_path": "results\\0\\BalancerAgent\\BalancerAgent-349999.nn",
+                "reward": 1.1655913770839732,
+                "creation_time": 1630073969.0774355
+            },
+            {
+                "steps": 399998,
+                "file_path": "results\\0\\BalancerAgent\\BalancerAgent-399998.nn",
+                "reward": 1.0900000182065097,
+                "creation_time": 1630074113.5275478
+            },
+            {
+                "steps": 449983,
+                "file_path": "results\\0\\BalancerAgent\\BalancerAgent-449983.nn",
+                "reward": 1.1000000080972347,
+                "creation_time": 1630074259.1279278
+            },
+            {
+                "steps": 499999,
+                "file_path": "results\\0\\BalancerAgent\\BalancerAgent-499999.nn",
+                "reward": 0.9947916542490324,
+                "creation_time": 1630074368.8237805
+            },
+            {
+                "steps": 500038,
+                "file_path": "results\\0\\BalancerAgent\\BalancerAgent-500038.nn",
+                "reward": 1.013402044158621,
+                "creation_time": 1630074369.8350644
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500038,
+            "file_path": "results\\0\\BalancerAgent.nn",
+            "reward": 1.013402044158621,
+            "creation_time": 1630074369.8350644
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.20.0",
+        "tensorflow_version": "2.3.3"
+    }
+}
