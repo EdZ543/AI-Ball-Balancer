@@ -6,8 +6,10 @@ using Unity.MLAgents.Sensors;
 
 public class BalancerAgent : Agent
 {
+    public bool training = false;
     public float rotationSpeed = 1f;
     public float startRotationRadius = 20f;
+    public bool lost = false;
 
     public GameObject ball;
 
@@ -48,8 +50,15 @@ public class BalancerAgent : Agent
 
         if (ball.transform.localPosition.y < ballFallenThreshold)
         {
-            SetReward(-1.0f);
-            EndEpisode();
+            if (training)
+            {
+                SetReward(-1.0f);
+                EndEpisode();
+            }
+            else
+            {
+                lost = true;
+            }
         }
         else
         {
